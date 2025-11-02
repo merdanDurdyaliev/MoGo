@@ -4,7 +4,7 @@ import (
 	"html/template"
 	"path/filepath"
 
-	"github.com/merdan2000/go-website/pkg/models"
+	"github.com/merdanDurdyaliev/MoGo/pkg/models"
 )
 
 type templateData struct {

@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/merdan2000/go-website/pkg/handler"
+	"github.com/merdanDurdyaliev/MoGo/pkg/handler"
 )
 
 func main() {

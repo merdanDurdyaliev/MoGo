@@ -1,3 +1,3 @@
-module github.com/merdan2000/go-website
+module github.com/merdanDurdyaliev/MoGo
 
 go 1.18

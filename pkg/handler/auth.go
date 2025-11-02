@@ -4,8 +4,9 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+	"net/url"
 
-	"github.com/merdan2000/go-website/pkg/service"
+	"github.com/merdanDurdyaliev/MoGo/pkg/service"
 )
 
 type logInUser struct {
@@ -63,7 +64,7 @@ func authsetCookie(w http.ResponseWriter, r *http.Request, value string) {
 	}
 	cookie = &http.Cookie{
 		Name:     "enter",
-		Value:    value,
+		Value:    url.QueryEscape(""),
 		HttpOnly: true,
 		Secure:   true,
 	}
