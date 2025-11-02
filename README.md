@@ -2,7 +2,7 @@
 
 ## Switch from `main` to `master`
 
-bash
+```bash
 
 git branch -m main master        # rename branch 
 
