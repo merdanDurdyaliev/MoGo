@@ -3,13 +3,9 @@
 ## Switch from `main` to `master`
 
 ```bash
-
 git branch -m main master        # rename branch 
-
 git push -u origin master        # push new branch
-
 git push origin --delete main    # delete old main (optional)
-
 Now your default branch is master.
 
 ## Run the website locally
@@ -20,10 +16,10 @@ go mod tidy
 go run main.go
 
 3. Open in browser:
-cpp
+```cpp
 http://127.0.0.1:4001
 Save changes
-bash
+```bash
 git add .
 git commit -m "Your message"
 git push origin master
