@@ -9,7 +9,9 @@ git push origin --delete main    # delete old main (optional)
 
 Now your default branch is master.
 
-## Run the website locally
+
+Run the website locally
+
 1. Make sure dependencies are installed.
    go mod tidy
 
