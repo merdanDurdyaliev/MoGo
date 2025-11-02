@@ -3,7 +3,7 @@
 ## Switch from `main` to `master`
 
 bash
-git branch -m main master        # rename branch
+git branch -m main master        # rename branch ---
 git push -u origin master        # push new branch
 git push origin --delete main    # delete old main (optional)
 Now your default branch is master.
